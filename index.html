@@ -4,7 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <!-- SCORE -->
+    <div class="score">
+        <p>Player: <span id="player-score">0</span></p>
+        <p><span id="result"></span></p>
+        <p>Computer: <span id="computer-score">0</span></p>
+    </div>
+    <hr />
+    <!-- SELECTION -->
+    <div class="selection-display">
+      <div class="selection">
+        <div id="img-container-player">
+          <img
+            src="images/rock.png"
+            alt="rock"
+            id="player-img-rock"
+            class="img-rock hidden"
+          />
+          <img
+            src="images/paper.png"
+            alt="paper"
+            id="player-img-paper"
+            class="img-paper hidden"
+          />
+          <img
+            src="images/scissors.png"
+            alt="scissors"
+            id="player-img-scissors"
+            class="img-scissors hidden"
+          />
+        </div>
+      </div>
+      <div class="selection-seperator"></div>
+      <div class="selection">
+        <div id="img-container-computer">
+            <img
+              src="images/rock.png"
+              alt="rock"
+              id="computer-img-rock"
+              class="img-rock hidden"
+            />
+            <img
+              src="images/paper.png"
+              alt="paper"
+              id="computer-img-paper"
+              class="img-paper hidden"
+            />
+            <img
+              src="images/scissors.png"
+              alt="scissors"
+              id="computer-img-scissors"
+              class="img-scissors hidden"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="btn-container">
+      <div class="btn-border">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+      </div>
+    </div>
+  </body>
 </html>

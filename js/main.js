@@ -1,9 +1,3 @@
-// displayChoices function
-// updateScore function
-// checkGameEnd function
-// resetGame function
-// hideAllImages function
-
 const resultRound = document.getElementById("result");
 const playerScoreText = document.getElementById("player-score");
 const computerScoreText = document.getElementById("computer-score");
@@ -18,7 +12,7 @@ const playerImgScissors = document.getElementById("player-img-scissors");
 
 const computerImgRock = document.getElementById("computer-img-rock");
 const computerImgPaper = document.getElementById("computer-img-paper");
-const computerImgScissors = document.getElementById("computer-img-scissors");
+const computerImgScissors = document.getElementById("computer-image-scissors");
 
 let humanScore = 0;
 let computerScore = 0;
@@ -33,8 +27,6 @@ function getComputerChoice() {
     return "scissors";
   }
 }
-
-function getHumanChoice() {}
 
 function playRound(humanChoice, computerChoice) {
   displayChoices(humanChoice, computerChoice);

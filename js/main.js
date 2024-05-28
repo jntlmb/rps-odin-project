@@ -12,7 +12,7 @@ const playerImgScissors = document.getElementById("player-img-scissors");
 
 const computerImgRock = document.getElementById("computer-img-rock");
 const computerImgPaper = document.getElementById("computer-img-paper");
-const computerImgScissors = document.getElementById("computer-image-scissors");
+const computerImgScissors = document.getElementById("computer-img-scissors");
 
 let humanScore = 0;
 let computerScore = 0;
